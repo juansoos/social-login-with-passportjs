@@ -1,0 +1,100 @@
+/*Import Social Buttons for Bootstrap*/
+@import "./bootstrap-social";
+
+.content {
+  margin: 20px 80px;
+}
+.icon-container{
+  margin-top: 10px;
+}
+.social-icons {
+  margin-bottom: 5px;
+  text-align: center;
+}
+a:not([href]):not([tabindex]) {
+  color: white;
+  text-align: center;
+}
+a:not([href]):not([tabindex]):focus, 
+a:not([href]):not([tabindex]):hover {
+  color: #FCFCFC;
+  text-align: center;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 320px) {
+  .content {
+    margin: 20px 20px;
+  }
+  .title {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  .description {
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .content {
+    margin: 20px 20px;
+  }
+  .title {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  .description {
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  .description {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  .description {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+  }
+}
